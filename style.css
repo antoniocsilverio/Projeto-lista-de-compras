@@ -114,3 +114,7 @@ body {
 .itemDaMinhaLista img {
   margin-left: auto;
 }
+
+.hidden {
+  display: none !important;
+}

@@ -16,6 +16,7 @@
     />
 
     <title>Lista de Compras</title>
+    <script src="script.js"></script>
   </head>
   <body>
     <div id="main">
@@ -33,27 +34,10 @@
       </div>
       <div id="insert">
         <input type="text" id="item" placeholder="Adicionar um novo item" />
-        <button onclick="addItem()">Adicionar item</button>
+        <button onclick="adicionarItem()">Adicionar item</button>
       </div>
-      <ul id="minhaLista">
-        <li class="itemDaMinhaLista">
-          <input type="checkbox" id="item1" />
-          <label for="item1">Arroz </label>
-          <img
-            src="images/Lista de compras (Community)/Lista de compras/Frame.png"
-            alt=""
-          />
-        </li>
-        <li class="itemDaMinhaLista">
-          <input type="checkbox" id="item1" />
-          <label for="item1">Arroz </label>
-          <img
-            src="images/Lista de compras (Community)/Lista de compras/Frame.png"
-            alt=""
-          />
-        </li>
-      </ul>
-      <div id="alerta">
+      <ul id="minhaLista"></ul>
+      <div id="alerta" class="hidden">
         <span>
           <img
             class="icone"
