@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+        
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
+    
+
+    <title>Lista de Compras</title>
+</head>
+<body>
+
+    <div id="main">  
+        <div id="logo">
+            <img src="images/Lista de compras (Community)/Lista de compras/Vector.png" alt="Logo da página">
+        </div>
+        <div id="button1">
+            <button onclick="goBack()">voltar</button>
+
+        </div>
+        <div id="title">
+            <h1>Compras da semana</h1>
+        </div>
+        <div id="insert">
+            <input type="text" id="item" placeholder="Adicionar um novo item">
+            <button onclick="addItem()">Adicionar</button>
+
+        </div>
+        <div id="list">
+            <ul id="shoppingList"></ul>
+        <div>
+            <footer>
+                <span>
+                    <h1>item removido com sucesso</h1>
+                </span>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

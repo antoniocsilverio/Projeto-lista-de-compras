@@ -1,0 +1,45 @@
+:root {
+    --colour-brand: #CA3884;
+    --colour-brand-hover: #A52C6B;
+    --background-primary: #F4F5FB;
+    --colour-danger: #C93847;
+    --content-primary: #080B12; 
+    --content-secondary: #374151;
+    --content-tertiary: #9CA3AF;
+    --always-white: #FFFFFF;
+    --border-primary: #D1D5DB;
+    --border-hover: #B9C2D0;
+
+    --font-family: "Inter", sans-serif;
+    --title: var(--font-family);
+    --text: 16px/1.5 var(--font-family);
+    --text-md: medium 14px/170% var(--font-family);
+    --text-sm: medium 12px/170% var(--font-family);
+
+}
+
+
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#logo {
+    text-align: center;
+    margin-top: 26px;
+}
+
+#title {
+    margin-top: 16px;
+    font-family: var(--title);
+   
+}
+
+
+#button1 {
+    margin-top: 57px;
+    margin-left: 16px;
+}
+
